@@ -27,4 +27,5 @@ class student
     int failed_courses();
     double best_rating();
     double worst_rating();
+    bool student_regular();
 };

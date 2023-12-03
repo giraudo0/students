@@ -109,3 +109,14 @@ double student::worst_rating()
   }
   return _worst;
 }
+
+bool student::student_regular()
+{
+  bool _regular = true;
+  for(double rate: ratings)
+  {
+    if(rate < 7)
+      _regular = false;
+  }
+  return _regular;
+}
